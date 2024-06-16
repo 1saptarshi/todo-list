@@ -1,0 +1,11 @@
+/* Base styles for light and dark mode */
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+body.dark {
+    background: rgb(110,24,168);
+    background: linear-gradient(90deg, rgba(110,24,168,1) 0%, rgba(176,30,203,0.9573880577621674) 43%, rgba(252,176,69,1) 100%);
+}
+
+ 
